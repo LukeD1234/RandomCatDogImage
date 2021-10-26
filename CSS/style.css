@@ -1,0 +1,49 @@
+body {
+    background: #0B5B84;
+}
+
+.result-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    height: 400px;
+    width: 300px;
+    border: 2px solid #14B9FE;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #14B9FE;
+    font-size: 24px;
+}
+
+.btn {
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 30px;
+    border: 2px solid #11FF83;
+    border-radius: 5px;
+    background-color: #14B9FE;
+}
+
+.btn:active {
+    transform:scale(.98)
+}
